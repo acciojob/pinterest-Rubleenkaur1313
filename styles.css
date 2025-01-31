@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.hero {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding to the container */
+    background-color: #f0f0f0; /* Light background color for the hero section */
+}
+
+.hero img {
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Fixed height for the image */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+}
+
+.explore-button {
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    text-decoration: none; /* Remove underline from the link */
+    margin-top: 15px; /* Space above the button */
+    font-size: 16px; /* Font size for the button */
+}
+
+.explore-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
